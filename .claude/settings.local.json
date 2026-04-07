@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn --version)",
+      "Bash(cmd /c \"mvn --version\")",
+      "Bash(java:*)",
+      "Bash(cmd:*)",
+      "Bash(powershell:*)",
+      "Bash('C:/Program Files/Eclipse Adoptium/jdk-8.0.482.8-hotspot/bin/java' -version)",
+      "Bash(C:/maven/apache-maven-3.9.14/bin/mvn --version)",
+      "Bash(export JAVA_HOME MAVEN_HOME)",
+      "Bash(C:/maven/apache-maven-3.9.14/bin/mvn clean:*)",
+      "Bash(C:/projects/seleniumExercise/drivers/chromedriver.exe:*)",
+      "Bash(cp \"C:/maven-install/chromedriver-extracted/chromedriver-win64/chromedriver.exe\" \"C:/projects/seleniumExercise/drivers/chromedriver.exe\")",
+      "Bash(\"C:/projects/seleniumExercise/drivers/chromedriver.exe\" --version)",
+      "Bash(C:/maven/apache-maven-3.9.14/bin/mvn package:*)",
+      "Bash(C:/maven/apache-maven-3.9.14/bin/mvn exec:java -Dexec.mainClass=com.company.Main)",
+      "Bash(C:/maven/apache-maven-3.9.14/bin/mvn compile:*)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files/Eclipse Adoptium//**)",
+      "Bash(powershell.exe:*)",
+      "Bash(mvn dependency:copy-dependencies)",
+      "Bash(mvn package:*)",
+      "Bash(tasklist /FI \"PID eq $$\")",
+      "Bash(wmic OS get FreePhysicalMemory,TotalVisibleMemorySize /value)",
+      "Bash(ps aux:*)",
+      "Read(//proc/**)",
+      "Bash(vm_stat)"
+    ]
+  }
+}

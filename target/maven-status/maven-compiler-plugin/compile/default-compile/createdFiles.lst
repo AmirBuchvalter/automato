@@ -1,0 +1,8 @@
+com\company\TestManager.class
+tests\testsScenarios.class
+helpers\OperatingSystemHelper.class
+com\company\Main.class
+common\Setup.class
+common\Bootstrap.class
+common\TearDown.class
+common\Actions.class
