@@ -1,3 +1,5 @@
+🍅
+
 # Selenium Exercise
 
 A basic infrastructure for self-contained, automated website testing built on the Java runtime. It uses Selenium WebDriver to drive a real Chrome browser, and includes a lightweight test runner, setup/teardown lifecycle, screenshot capture, and OS detection — no external test framework orchestration required.
